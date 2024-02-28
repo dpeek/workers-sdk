@@ -15,6 +15,8 @@ import type {
 	StrictYargsOptionsToInterface,
 } from "../yargs-types";
 
+export { versionsDeployHandler, versionsDeployOptions } from "./deploy";
+
 async function standardPricingWarning(
 	accountId: string | undefined,
 	config: Config
